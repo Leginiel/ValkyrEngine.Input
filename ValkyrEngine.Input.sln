@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValkyrEngine.Input", "ValkyrEngine.Input\ValkyrEngine.Input.csproj", "{D68AB2C8-96D5-41F6-9F50-27400D2E4246}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValkyrEngine.Input.Tests", "ValkyrEngine.Input.Tests\ValkyrEngine.Input.Tests.csproj", "{C3CB49D6-BB56-40A7-9A38-B19E6CEEB0E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D68AB2C8-96D5-41F6-9F50-27400D2E4246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D68AB2C8-96D5-41F6-9F50-27400D2E4246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D68AB2C8-96D5-41F6-9F50-27400D2E4246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D68AB2C8-96D5-41F6-9F50-27400D2E4246}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3CB49D6-BB56-40A7-9A38-B19E6CEEB0E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3CB49D6-BB56-40A7-9A38-B19E6CEEB0E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3CB49D6-BB56-40A7-9A38-B19E6CEEB0E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3CB49D6-BB56-40A7-9A38-B19E6CEEB0E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95F3648F-697D-4451-884F-0F5DB101292C}
+	EndGlobalSection
+EndGlobal
