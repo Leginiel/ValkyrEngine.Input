@@ -1,7 +1,17 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
-
+  <ItemGroup>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
+      <_Parameter1>ValkyrEngine.Input.Tests</_Parameter1>
+    </AssemblyAttribute>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="5.1.4" />
+    <PackageReference Include="GitVersion" Version="3.6.5" />
+    <PackageReference Include="ValkyrEngine.Api" Version="0.1.0-ci-20200510-183543" />
+    <PackageReference Include="Veldrid.Sdl2" Version="4.7.0" />
+  </ItemGroup>
 </Project>
