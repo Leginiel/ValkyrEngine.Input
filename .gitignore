@@ -5,3 +5,5 @@
 /ValkyrEngine.Input.Tests/obj
 /ValkyrEngine.Input/obj
 /.vs
+/ValkyrEngine.Input/bin/Debug/netstandard2.0
+/ValkyrEngine.Input.Tests/bin/Debug/netcoreapp3.1
